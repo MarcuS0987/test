@@ -1,0 +1,43 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  text-align: center;
+}
+
+.header{
+  background-color: greenyellow;
+  height: 50px;
+}
+
+nav{
+  background-color: green;
+  height: 40px;
+}
+
+.footer{
+  background-color: green;
+  height: 30px;
+}
+
+.main{
+  display: flex;
+}
+
+#sidebar, #aside{
+  background-color: darkblue;
+  height: 300px;
+  width: 20%;
+}
+
+#content{
+  background-color: lightskyblue;
+  height: 300px;
+  width: 60%;
+}
+
+#aside{
+
+}
