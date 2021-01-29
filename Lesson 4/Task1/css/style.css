@@ -1,0 +1,29 @@
+.box{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: red;
+  color: white;
+}
+
+#two{
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background-color: blue;
+  /* z-index: -1; */
+}
+
+/* #three{
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  background-color: green;
+} */
+
+.pos{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: yellow;
+}
